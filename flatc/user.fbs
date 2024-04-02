@@ -1,0 +1,13 @@
+namespace flatc;
+
+table User {
+  name: string;
+  id: int;
+  email: string;
+}
+
+table Users {
+  users: [User];
+}
+
+root_type User;
